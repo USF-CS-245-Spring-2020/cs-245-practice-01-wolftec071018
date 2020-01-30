@@ -96,31 +96,31 @@ public class Practice01Test {
                 Practice01Math math = factory.get(implementationType);
 
                 if (testPositiveFactorial(math)) {
-                    System.out.println("[+20%] Correct calculations of factorial function.");
+                    System.out.println("[+20%] 1Correct calculations of factorial function.");
                     grade += 20;
                 } else {
-                    System.out.println("[    ] Incorrect implementation of factorial function.");
+                    System.out.println("[    ] 1Incorrect implementation of factorial function.");
                 }
 
                 if (testNegativeFactorial(math)) {
-                    System.out.println("[+ 5%] Correct calculations of factorial function.");
+                    System.out.println("[+ 5%] 2Correct calculations of factorial function.");
                     grade += 5;
                 } else {
-                    System.out.println("[    ] Incorrect implementation of factorial function.");
+                    System.out.println("[    ] 2Incorrect implementation of factorial function.");
                 }
 
                 if (testPositiveFibonacci(math)) {
-                    System.out.println("[+20%] Correct calculations of Fibonacci function.");
+                    System.out.println("[+20%] 3Correct calculations of Fibonacci function.");
                     grade += 20;
                 } else {
-                    System.out.println("[    ] Incorrect implementation of Fibonacci function.");
+                    System.out.println("[    ] 3Incorrect implementation of Fibonacci function.");
                 }
 
                 if (testNegativeFibonacci(math)) {
-                    System.out.println("[+ 5%] Correct calculations of Fibonacci function.");
+                    System.out.println("[+ 5%] 4Correct calculations of Fibonacci function.");
                     grade += 5;
                 } else {
-                    System.out.println("[    ] Incorrect implementation of Fibonacci function.");
+                    System.out.println("[    ] 4Incorrect implementation of Fibonacci function.");
                 }
             }
         } catch (Exception e) {
